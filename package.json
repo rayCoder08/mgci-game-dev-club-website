@@ -1,0 +1,16 @@
+{
+  "name": "game-development-club-website",
+  "version": "1.0.0",
+  "description": "A central website for the MGCI Game Development club, to organize games in one place and showcase our projects with students at MGCI.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raymond Mi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node": "^22.19.0"
+  }
+}

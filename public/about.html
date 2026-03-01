@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Us - MGCI Game Dev Club</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="/"
+            ><img src="images/gamedev-logo.webp" alt="Game Dev Logo"
+          /></a>
+        </div>
+        <div><a href="/games.html">Games</a></div>
+        <div><a href="/about.html">About Us</a></div>
+        <div><a href="/join.html">Join Our Team</a></div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="heading-text">
+        <div>
+          <h1>Our Team</h1>
+          <p class="subtitle">
+            Meet the team behind MGCI Game Development Club!
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3 style="padding-top: 3rem">Club Leadership</h3>
+        <div
+          class="gallery"
+        >
+          <div class="card">
+            <img
+              src="images/gamedev-logo.webp"
+              alt="President photo"
+              style="
+                background: linear-gradient(
+                  45deg,
+                  var(--primary),
+                  var(--secondary)
+                );
+              "
+            />
+            <div class="title">Jerry Chen</div>
+            <div class="description">
+              <strong style="color: var(--primary)">President</strong
+              ><br /><br />
+              Developing games and fostering a creative
+              environment for all club members.
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="images/gamedev-logo.webp"
+              alt="President photo"
+              style="
+                background: linear-gradient(
+                  45deg,
+                  var(--primary),
+                  var(--secondary)
+                );
+              "
+            />
+            <div class="title">Bavinesh Thavarajah</div>
+            <div class="description">
+              <strong style="color: var(--primary)">President</strong
+              ><br /><br />
+              Organizing events and workshops to help members learn game
+              development skills and tools.
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="images/gamedev-logo.webp"
+              alt="Vice President photo"
+              style="
+                background: linear-gradient(
+                  45deg,
+                  var(--primary),
+                  var(--secondary)
+                );
+              "
+            />
+            <div class="title">Raymond Mi</div>
+            <div class="description">
+              <strong style="color: var(--primary)">Vice President</strong
+              ><br /><br />
+              Supporting club operations and developing the website.
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="images/gamedev-logo.webp"
+              alt="Vice President photo"
+              style="
+                background: linear-gradient(
+                  45deg,
+                  var(--primary),
+                  var(--secondary)
+                );
+              "
+            />
+            <div class="title">Tom Sharma</div>
+            <div class="description">
+              <strong style="color: var(--primary)">Vice President</strong
+              ><br /><br />
+            Assisting in project management and member engagement.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Executive Team</h3>
+        <p class="subtitle">
+          Our dedicated marketers, lecturers, and developers! We are still in
+          the process of choosing execs. Apply before November 14th, 2025 @ 11:59 PM
+          to have a spot in our club!
+        </p>
+        <a
+          class="btn"
+          href="https://forms.gle/TpPDCbJCAtBVkM9B8"
+          target="_blank"
+          style="display:flex; justify-content: center; text-align: center; margin: 3rem 30rem;"
+        >Apply Now!</a>
+        <div
+          class="game-gallery"
+          style="
+            display: grid;
+            grid-template-columns: repeat(
+              auto-fit,
+              minmax(calc(25% - 1.5rem), 1fr)
+            );
+            gap: 2rem;
+          "
+        >
+          <!-- Executive cards will be added here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 MGCI Game Development Club. Website designed by Raymond Mi</p>
+    </footer>
+
+    <script>
+      var year = new Date().getFullYear();
+      document.querySelector("footer p").innerText =
+        "© " +
+        year +
+        " MGCI Game Development Club. Website designed by Raymond Mi.";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>MGCI Game Dev Club</title>
+    <script src="/scripts/carousel.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="/"
+            ><img src="images/gamedev-logo.webp" alt="Game Dev Logo"
+          /></a>
+        </div>
+        <div><a href="/games.html">Games</a></div>
+        <div><a href="/about.html"> About Us</a></div>
+        <div><a href="/join.html">Join Our Team</a></div>
+      </nav>
+    </header>
+    <div class="title-screen">
+      <div>
+        <h1>MGCI Game Development Club</h1>
+        <h2><em>Fridays at Lunch in Room 222</em></h2>
+      </div>
+      <div>
+        <p class="subtitle">
+          Game dev club provides a chill atmosphere for all gamers and game
+          developers. <br />
+          Join us every Friday at lunch to play your favourite games with
+          friends, sharpen your game development skills, and contribute to our
+          newest games.
+        </p>
+      </div>
+      <div class="buttons">
+        <a href="/games.html" class="btn">Play Our Games ></a>
+        <a href="/about.html" class="btn">About Game Dev ></a>
+      </div>
+    </div>
+    <footer>
+      <p>© 2025 MGCI Game Development Club. Website designed by Raymond Mi</p>
+    </footer>
+  </body>
+
+  <script>
+    var year = new Date().getFullYear();
+    document.querySelector("footer p").innerText =
+      "© " +
+      year +
+      " MGCI Game Development Club. Website designed by Raymond Mi.";
+  </script>
+</html>
